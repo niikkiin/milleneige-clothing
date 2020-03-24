@@ -1,0 +1,38 @@
+$main-color: #8d615d;
+$sub-color:  #bb817a;
+$light-color: #fbf3f2;
+$bg-color: $light-color;
+
+.custom-button {
+  min-width: 165px;
+  width: auto;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  font-size: 15px;
+  background-color: $sub-color;
+  color: $light-color;
+  text-transform: capitalize;
+  font-family: 'Muli', sans-serif;
+  font-weight: bolder;
+  border-radius: 50px;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $main-color;
+    color: $light-color;
+  }
+
+  &.google-sign-in-button {
+    background-color: tomato;
+    color: $light-color;
+
+    &:hover {
+      background-color: orangered;
+      color: $light-color;
+    }
+  }
+}
