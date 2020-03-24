@@ -1,0 +1,108 @@
+.menu-item {
+	min-width: 15%;
+	height: 100px;
+	display: flex;
+	flex: 1 1 auto;
+	align-items: flex-start;
+	justify-content: flex-start;
+	background-color: #ffdddb;
+	margin: 0 7.5px 15px;
+	border-radius: 25px;
+
+	&:hover {
+		box-shadow: 1px 0px 1px #ebaaa4, 0px 1px 1px #ebaaa4, 2px 1px 1px #ebaaa4, 1px 2px 1px #ebaaa4,
+			3px 2px 1px #ebaaa4, 2px 3px 1px #ebaaa4, 4px 3px 1px #ebaaa4, 3px 4px 1px #ebaaa4, 5px 4px 1px #ebaaa4,
+			4px 5px 1px #ebaaa4, 6px 5px 1px #ebaaa4, 5px 6px 1px #ebaaa4;
+		backface-visibility: hidden;
+		transform: perspective(400px) rotateX(0deg);
+		transition: all 0.5s;
+		-webkit-transform: perspective(400px) rotateX(0deg);
+		-webkit-transition: all 0.5s;
+	}
+
+	.content {
+		height: 90px;
+		padding: 0 25px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+
+		.title {
+			font-weight: bold;
+			margin-bottom: 6px;
+			font-size: 22px;
+			color: #584538;
+		}
+	}
+}
+
+// .menu-item {
+//   min-width: 25%;
+//   height: 240px;
+//   flex: 1 1 auto;
+//   display: flex;
+//   align-items: flex-start;
+//   justify-content: flex-start;
+//   // border: 1px solid black;
+//   margin: 0 7.5px 15px;
+//   border-radius: 25px;
+//   background-color: #ffdddb;
+//   overflow: hidden;
+
+//   &:hover {
+//     cursor: pointer;
+
+//     & .background-image {
+//       transform: scale(1.1);
+//       transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+//     }
+
+//     & .content {
+//       opacity: 0.9;
+//     }
+//   }
+
+//   &.large {
+//     height: 380px;
+//   }
+
+//   &:first-child {
+//     margin-right: 7.5px;
+//   }
+
+//   &:last-child {
+//     margin-left: 7.5px;
+//   }
+//   .background-image {
+//     width: 100%;
+//     height: 100%;
+//     background-position: center;
+//     background-size: cover;
+//   }
+//   .content {
+//     height: 90px;
+//     padding: 0 25px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     // border: 1px solid black;
+//     position: absolute;
+
+//     .title {
+//       font-weight: bold;
+//       margin-bottom: 6px;
+//       font-size: 22px;
+//       // color: #4a4a4a;
+//       color: #fcf2dd;
+//     }
+
+//     .subtitle {
+//       font-weight: lighter;
+//       font-size: 16px;
+//       color: #fcf2dd;
+//     }
+//   }
+// }
