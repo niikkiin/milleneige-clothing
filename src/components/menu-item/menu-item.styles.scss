@@ -15,9 +15,9 @@
 			4px 5px 1px #ebaaa4, 6px 5px 1px #ebaaa4, 5px 6px 1px #ebaaa4;
 		backface-visibility: hidden;
 		transform: perspective(400px) rotateX(0deg);
-		transition: all 0.5s;
+		transition: all ease-in-out 0.5s;
 		-webkit-transform: perspective(400px) rotateX(0deg);
-		-webkit-transition: all 0.5s;
+		-webkit-transition: all ease-in-out 0.5s;
 	}
 
 	.content {
