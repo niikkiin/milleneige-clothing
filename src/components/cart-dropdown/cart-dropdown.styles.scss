@@ -10,16 +10,24 @@
 	top: 60px;
 	right: 10px;
   z-index: 5;
+
+  // &:hover &.cart-items {
+  //   overflow: scroll;
+  // }
   
 	.cart-items {
 		height: 240px;
 		display: flex;
 		flex-direction: column;
-		overflow: auto;
-
+    overflow: hidden;
+    
+    &:hover {
+      overflow: auto;
+    }
+    
 		&::-webkit-scrollbar {
-      width: 8px;
       cursor: pointer;
+      width: 8px;
 		}
 
 		&::-webkit-scrollbar-track {
