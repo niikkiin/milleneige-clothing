@@ -20,6 +20,8 @@ $bg-color: $light-color;
   transition: all 0.5s;
   border: none;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 
   &:hover {
     background-color: $main-color;
@@ -32,6 +34,16 @@ $bg-color: $light-color;
 
     &:hover {
       background-color: orangered;
+      color: $light-color;
+    }
+  }
+
+  &.inverted {
+    background-color: $light-color;
+    color: $main-color;
+    
+    &:hover {
+      background-color: $sub-color;
       color: $light-color;
     }
   }
