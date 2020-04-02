@@ -43,7 +43,7 @@ $bg-color: $light-color;
     color: $main-color;
     
     &:hover {
-      background-color: $sub-color;
+      background-color: $main-color;
       color: $light-color;
     }
   }
